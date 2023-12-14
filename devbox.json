@@ -1,0 +1,19 @@
+{
+  "packages": [
+    "nodejs-18_x@latest",
+    "pandoc@latest",
+    "pandoc-drawio-filter@latest",
+    "mermaid-filter@latest",
+    "texliveSmall@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}

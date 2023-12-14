@@ -1,0 +1,93 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "mermaid-filter@latest": {
+      "last_modified": "2023-12-10T01:36:17Z",
+      "resolved": "github:NixOS/nixpkgs/2873a73123077953f3e6f34964466018876d87c4#mermaid-filter",
+      "source": "devbox-search",
+      "version": "1.4.6",
+      "systems": {
+        "aarch64-linux": {
+          "store_path": "/nix/store/g66byhmyma3xgn4iwa60z12mjx0vzmd6-mermaid-filter-1.4.6"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/4p2f8a3v874wg2kv3lr675nqxn18z6mn-mermaid-filter-1.4.6"
+        }
+      }
+    },
+    "nodejs-18_x@latest": {
+      "last_modified": "2023-04-13T03:55:09Z",
+      "resolved": "github:NixOS/nixpkgs/96ba1c52e54e74c3197f4d43026b3f3d92e83ff9#nodejs",
+      "source": "devbox-search",
+      "version": "18.15.0",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/0a9p2rmfhcsw1mz3ys77cnxyfvjlzq6b-nodejs-18.15.0"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/my02hgrhx4hihcyljb508nlfil5n2ipj-nodejs-18.15.0"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/m9sy0b4v9m5g3sgmkd6n3ld6pl8dpx9c-nodejs-18.15.0"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/njh6p007ymbmcgas5l7sqqxfmm394zx1-nodejs-18.15.0"
+        }
+      }
+    },
+    "pandoc-drawio-filter@latest": {
+      "last_modified": "2023-12-11T05:36:02Z",
+      "resolved": "github:NixOS/nixpkgs/e97b3e4186bcadf0ef1b6be22b8558eab1cdeb5d#pandoc-drawio-filter",
+      "source": "devbox-search",
+      "version": "1.1",
+      "systems": {
+        "aarch64-linux": {
+          "store_path": "/nix/store/30ky3z557zpq8vzcclpa72jbn284yrax-pandoc-drawio-filter-1.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/7bdkhz4hsaad2wfwrga26r1pp1j4z7h9-pandoc-drawio-filter-1.1"
+        }
+      }
+    },
+    "pandoc@latest": {
+      "last_modified": "2023-12-06T11:19:33Z",
+      "resolved": "github:NixOS/nixpkgs/325eb628b89b9a8183256f62d017bfb499b19bd9#pandoc",
+      "source": "devbox-search",
+      "version": "3.1.9",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/vmf4gdrs3n02fgmgbpsgkqnac2zbas4z-pandoc-cli-3.1.9"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/d15apd0g80bbcxr9i7bfxac0snzijhk5-pandoc-cli-3.1.9"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/aklxffzilpzbikwlh3nsdraas0hyrv3k-pandoc-cli-3.1.9"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/q1rxv3maar1va4p2daxrn3aknmm94s67-pandoc-cli-3.1.9"
+        }
+      }
+    },
+    "texliveSmall@latest": {
+      "last_modified": "2023-11-23T16:10:41Z",
+      "resolved": "github:NixOS/nixpkgs/e8b0430bc4c4235607ae102010dec2ba32e8c0ca#texliveSmall",
+      "source": "devbox-search",
+      "version": "2022-env",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/1n63vk8i4ihfh0d1rxamz3wd8z4ymjss-texlive-2022-env"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/8c7g2k12kzh5id74z59f5gw9wn0cg4yf-texlive-2022-env"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/fj37g71ggy8w19jijqilr2340jmmsgk5-texlive-2022-env"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/dcydixzmiwrjjvvnzjw6g0zb817ycz2a-texlive-2022-env"
+        }
+      }
+    }
+  }
+}
