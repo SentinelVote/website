@@ -10,32 +10,34 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Effortless Voting Journey',
+    Svg: require('@site/static/img/vs_undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Seamless registration and voting experience via user-friendly webpages. 
+        Your data is securely stored, and votes are transmitted to the 
+        blockchain for a smooth, trustworthy process.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'User-Focused Voting Confidence',
+    Svg: require('@site/static/img/vs_undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Intuitive registration leads to secure, hassle-free voting. VoteShield 
+        ensures data security and integrity while providing an easy, transparent voting process.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Simplified Voting, Secure Outcome',
+    Svg: require('@site/static/img/vs_undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Register and vote effortlessly with VoteShield's user-centric design. 
+        Your data's security and encrypted votes' integrity are maintained for 
+        a seamless journey onto the blockchain.
       </>
     ),
   },

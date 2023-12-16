@@ -3,9 +3,9 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = { //TODO: change names
-  title: 'NotQuantumSecure', 
-  tagline: 'matrict+ is not cool',
-  favicon: 'img/favicon.ico',
+  title: 'VoteShield', 
+  tagline: 'An e-voting platform on Hyperledger Fabric with Linkable Ring Signatures',
+  favicon: 'img/VoteShield.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -50,10 +50,10 @@ const config: Config = { //TODO: change names
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'NotQuantumSecure', //TODO: change org name
+      title: 'VoteShield', //TODO: change org name
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/VoteShield.ico',
       },
       items: [
         {
