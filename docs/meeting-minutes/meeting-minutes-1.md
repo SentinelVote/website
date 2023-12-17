@@ -47,5 +47,4 @@ The meeting began with introductions from all team members. We then discussed th
 
 **Notes:**
 
-- This is the first meeting of the team.
 - The next meeting will be on the 12th October 2023, 7:30 PM

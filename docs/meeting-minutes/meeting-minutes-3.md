@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Meeting Minutes 3 - 19th October 2023, 11:00 AM
+title: Meeting Minutes 3 - 19th October 2023
 author: Hidayat
 ---
 
@@ -51,5 +51,4 @@ Discuss about ideas for project proposal.
 
 **Notes:**
 
-- This is the third meeting of the team.
 - The next meeting will be on the 21st October 2023, 15:00 PM

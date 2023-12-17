@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Meeting Minutes 2 - 12th October 2023, 7:30 PM
+title: Meeting Minutes 2 - 12th October 2023
 author: Baraq
 ---
 
@@ -51,5 +51,4 @@ Discussion about project details and requirements with supervisor.
 
 **Notes:**
 
-- This is the second meeting of the team.
 - The next meeting will be on the 19th October 2023, 11:00 AM
