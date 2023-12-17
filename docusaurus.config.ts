@@ -58,9 +58,15 @@ const config: Config = { //TODO: change names
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
           position: 'left',
+          sidebarId: 'documentation',
           label: 'Documentation',
+        },
+        {
+          type: 'docSidebar',
+          position: 'left',
+          sidebarId: 'meeting-minutes',
+          label: 'Meeting Minutes',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
