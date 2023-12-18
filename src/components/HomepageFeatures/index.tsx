@@ -25,7 +25,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/vs_undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Intuitive registration leads to secure, hassle-free voting. VoteShield 
+        Intuitive registration leads to secure, hassle-free voting. SentinelVote 
         ensures data security and integrity while providing an easy, transparent voting process.
       </>
     ),
@@ -35,7 +35,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/vs_undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Register and vote effortlessly with VoteShield's user-centric design. 
+        Register and vote effortlessly with SentinelVote's user-centric design. 
         Your data's security and encrypted votes' integrity are maintained for 
         a seamless journey onto the blockchain.
       </>
