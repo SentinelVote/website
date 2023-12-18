@@ -5,10 +5,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 const organizationName = "SentinelVote";
 const projectName = "website";    
 
-const config: Config = { //TODO: change names
+const config: Config = {
   title: 'SentinelVote', 
   tagline: 'An e-voting platform on Hyperledger Fabric with Linkable Ring Signatures',
-  favicon: 'img/VoteShield.ico',
+  favicon: 'img/SentinelVote.ico',
 
 
   // Set the production url of your site here
@@ -16,6 +16,7 @@ const config: Config = { //TODO: change names
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: `/${projectName}`,
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -56,10 +57,10 @@ const config: Config = { //TODO: change names
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'SentinelVote', //TODO: change org name
+      title: 'SentinelVote',
       logo: {
         alt: 'My Site Logo',
-        src: '../img/VoteShield.ico',
+        src: '/img/SentinelVote.ico',
       },
       items: [
         {
@@ -77,7 +78,7 @@ const config: Config = { //TODO: change names
         // once confirm no need blog, can remove it
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/QuantumSecureVote', //TODO: change organisation name
+          href: 'https://github.com/SentinelVote',
           label: 'GitHub',
           position: 'right',
         },
@@ -91,11 +92,11 @@ const config: Config = { //TODO: change names
           items: [
             {
               label: 'Documentation',
-              to: '/docs/intro',
+              to: '/docs/documentation/overview',
             },
             {
               label: 'Github',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'hhttps://github.com/SentinelVote/website',
             },
           ],
         },
