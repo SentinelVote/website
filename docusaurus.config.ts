@@ -68,7 +68,8 @@ const config: Config = { //TODO: change names
           sidebarId: 'meeting-minutes',
           label: 'Meeting Minutes',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // once confirm no need blog, can remove it
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/QuantumSecureVote', //TODO: change organisation name
           label: 'GitHub',
