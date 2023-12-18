@@ -8,14 +8,14 @@ const projectName = "website";
 const config: Config = {
   title: 'SentinelVote', 
   tagline: 'An e-voting platform on Hyperledger Fabric with Linkable Ring Signatures',
-  favicon: 'img/SentinelVote.ico',
+  favicon: './img/SentinelVote.ico',
 
 
   // Set the production url of your site here
   url: `https://${organizationName}.github.io`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: `/${projectName}`,
+  baseUrl: `/`,
   trailingSlash: false,
 
   // GitHub pages deployment config.
