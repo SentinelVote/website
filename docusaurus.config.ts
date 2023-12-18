@@ -2,21 +2,25 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+const organizationName = "SentinelVote";
+const projectName = "website";    
+
 const config: Config = { //TODO: change names
-  title: 'VoteShield', 
+  title: 'SentinelVote', 
   tagline: 'An e-voting platform on Hyperledger Fabric with Linkable Ring Signatures',
   favicon: 'img/VoteShield.ico',
 
+
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: `https://${organizationName}.github.io`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: `/${projectName}`,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName,  // Usually your GitHub org/user name.
+  projectName,  // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -35,9 +39,11 @@ const config: Config = { //TODO: change names
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
         blog: {
           showReadingTime: true,
+          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -50,10 +56,10 @@ const config: Config = { //TODO: change names
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'VoteShield', //TODO: change org name
+      title: 'SentinelVote', //TODO: change org name
       logo: {
         alt: 'My Site Logo',
-        src: 'img/VoteShield.ico',
+        src: '../img/VoteShield.ico',
       },
       items: [
         {
