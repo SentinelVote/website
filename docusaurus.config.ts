@@ -10,6 +10,10 @@ const config: Config = {
   tagline: 'An e-voting platform on Hyperledger Fabric with Linkable Ring Signatures',
   favicon: '/img/SentinelVote.ico',
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 
   // Set the production url of your site here
   url: `https://${organizationName}.github.io`,
