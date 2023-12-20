@@ -1,41 +1,18 @@
-# Website
+# SentinelVote Project Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This is the project website for SentinelVote,
+a blockchain-based voting system.
 
-### Installation
+SentinelVote is an undergraduate final-year project.
+More information can be found on the website [homepage] and [overview].
 
-```
-$ yarn
-```
+## Maintenance
 
-### Local Development
+This site is built with Docusaurus, generated from the classic-typescript template.
+See it's [original README] for more information.
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+[//]: # (Links)
+[homepage]: https://sentinelvote.github.io/website/
+[overview]: https://sentinelvote.github.io/website/docs/documentation/overview
+[original README]: https://github.com/SentinelVote/website/tree/7fe91122d92308f2a2480d8fd255ef2e6eccd50a#readme
+[SentinelVote]: https://github.com/SentinelVote

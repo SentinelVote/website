@@ -105,7 +105,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} CSIT321, FYP-23-S4-10`,
+      copyright: `SentinelVote © 2023 by FYP-23-S4-10 is licensed under CC BY-NC-SA 4.0`,
     },
     prism: {
       theme: prismThemes.github,
