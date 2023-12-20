@@ -5,10 +5,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 const organizationName = "SentinelVote";
 const projectName = "website";    
 
-const config: Config = {
+const config: Config = { 
   title: 'SentinelVote', 
   tagline: 'An e-voting platform on Hyperledger Fabric with Linkable Ring Signatures',
-  favicon: './img/SentinelVote.ico',
+  favicon: '/img/SentinelVote.ico',
 
 
   // Set the production url of your site here
@@ -57,9 +57,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'SentinelVote',
+      title: 'SentinelVote', 
       logo: {
-        alt: 'My Site Logo',
+        alt: 'SentinelVote Logo',
         src: '/img/SentinelVote.ico',
       },
       items: [
@@ -78,7 +78,7 @@ const config: Config = {
         // once confirm no need blog, can remove it
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/SentinelVote',
+          href: `https://github.com/${organizationName}`, 
           label: 'GitHub',
           position: 'right',
         },
