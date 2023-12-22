@@ -4,28 +4,44 @@ sidebar_position: 1
 
 # Overview
 
-<!-- code block -->
+(This page is a work in progress)
+
+
+[//]: # (This is a comment. Follow this format for comments.)
+
+
+#### Code Blocks
+[//]: # (code block)
+
 ```sh
-git clone git@github.com:QuantumSecureVote/website.git
+git clone git@github.com:SentinelVote/website.git
 ```
 
-<!-- diagrams -->
+#### Mermaid: sequenceDiagram
+[//]: # (diagrams)
+
 ```mermaid
 sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
-    Alice-)John: See you later!
+    Alice->>Bob: Hello Bob, how are you?
+    Bob-->>Alice: Great!
+    Alice-)Bob: See you later!
 ```
 
-<!-- links -->
+#### Links
+[//]: # (links)
+
 [hello](https://example.com)
 
-<!-- quotations -->
+#### Quotations
+[//]: # (quotations)
 
-> ewejsadlfjaksdjfa \
-> hello
->> kke
+> Quotations \
+> Multi-line quotations
+>> Nested quotations
 
-<!-- regular text -->
-ddadf \
-adsfa
+#### Regular Text
+[//]: # (regular text)
+
+Regular text
+\
+breakline, same paragraph
