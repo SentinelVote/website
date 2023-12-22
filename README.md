@@ -3,13 +3,13 @@
 This is the project website for SentinelVote,
 a blockchain-based voting system.
 
-SentinelVote is an undergraduate final-year project.
+SentinelVote is an undergraduate final-year project. \
 More information can be found on the website [homepage] and [overview].
 
 ## Maintenance
 
-This site is built with Docusaurus, generated from the classic-typescript template.
-See it's [original README] for more information.
+This site was initialized from Docusaurus' classic-typescript template.
+See the [original README] for more information.
 
 [//]: # (Links)
 [homepage]: https://sentinelvote.github.io/website/
