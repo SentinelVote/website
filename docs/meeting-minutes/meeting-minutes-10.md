@@ -25,7 +25,7 @@ Set up GitHub repositories.
 
 **Agenda:**
 
-- Create new organization.
+- Create new GitHub organization.
 - Create repositories for the project.
 - Ensure that everyone can access the repositories.
 - Brief everyone about the purpose of each repository.
@@ -38,15 +38,15 @@ Set up GitHub repositories.
 - Explanation for each repository purpose:
   - Registration is for users to register themselves and central authority to issue out private and public keys to each voter.
   - VoterApp is for users to login and cast their votes using the public and private keys issued to them during registration.
-  - Monorepo includes all the repositories in one.
+  - Monorepo includes all the repositories in one as git submodules.
   - Crypto is used to test out and debug MatRiCT+ code.
   - FabricBlockchain is used for the blockchain to store all the votes.
   - Website is used for the project documentation.
 
 **Action Items:**
 
-| Action Item                                                     | Assignee(s) |
-| --------------------------------------------------------------- | ----------- |
+| Action Item                                                    | Assignee(s) |
+| -------------------------------------------------------------- | ----------- |
 | Test out MatRiCT+ code and try to make it work for our project | Baraq       |
 | Create wireframes using Figma                                  | Elroy       |
 
