@@ -1,0 +1,8 @@
+{
+  "label": "Project User Manual",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Comprehensive User Manual covering setup and usage for both Voters and Central Authority, including local instance setup instructions."
+  }
+}
