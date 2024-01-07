@@ -14,7 +14,7 @@ sidebar_position: 4
 #### Linkable Ring Signatures (LRS)
 
 - Ensures anonymity and prevents double voting.
-- Utilizes [LRS library](https://github.com/zbohm/lirisi) for implementation.
+- Built APIs utilizing [LRS library](https://github.com/zbohm/lirisi) for implementation on Golang.
 
 #### Frontend Application
 
