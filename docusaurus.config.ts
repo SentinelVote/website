@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const organizationName = "SentinelVote";
-const projectName = "SentinelVote.github.io";    
+const projectName = "website";    
 
 const config: Config = { 
   title: 'SentinelVote', 
