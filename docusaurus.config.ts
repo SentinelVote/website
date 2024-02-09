@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const organizationName = "SentinelVote";
-const projectName = "website";    
+const projectName = "SentinelVote.github.io";    
 
 const config: Config = { 
   title: 'SentinelVote', 
@@ -16,7 +16,7 @@ const config: Config = {
   themes: ['@docusaurus/theme-mermaid'],
 
   // Set the production url of your site here
-  url: `https://${organizationName}.github.io`,
+  url: `https://docs.sentinelvote.tech`,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: `/`,
