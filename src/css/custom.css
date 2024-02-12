@@ -29,7 +29,10 @@
 	.text--truncate {
 		color: white;
 	}
-  .navbar__link {
+	.navbar__link {
+		color: white;
+	}
+	.toggle_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module {
 		color: white;
 	}
 }
