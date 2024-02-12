@@ -6,29 +6,44 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #247c7c;
-  --ifm-color-primary-dark: #312978;
-  --ifm-color-primary-darker: #372771;
-  --ifm-color-primary-darkest: #33205d;
-  --ifm-color-primary-light: #337c92;
-  --ifm-color-primary-lighter: #4f9aa6;
-  --ifm-color-primary-lightest: #6ec1d3;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  /* --ifm-navbar-background-color: red;
-  --ifm-footer-background-color: cyan; */
+	--ifm-color-primary: #0f0c29;
+	--ifm-color-primary-dark: #312978;
+	--ifm-color-primary-darker: #372771;
+	--ifm-color-primary-darkest: #33205d;
+	--ifm-color-primary-light: #337c92;
+	--ifm-color-primary-lighter: #4f9aa6;
+	--ifm-color-primary-lightest: #6ec1d3;
+	--ifm-code-font-size: 95%;
+	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+	--ifm-navbar-background-color: black;
+	--ifm-footer-background-color: black;
+	.footer__link-item {
+		color: white;
+	}
+	.footer__title {
+		color: white;
+	}
+	.footer__copyright {
+		color: white;
+	}
+	.text--truncate {
+		color: white;
+	}
+  .navbar__link {
+		color: white;
+	}
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #044c8b;
-  --ifm-color-primary-dark: #0a3f7b;
-  --ifm-color-primary-darker: #06356c;
-  --ifm-color-primary-darkest: #032954;
-  --ifm-color-primary-light: #065cb2;
-  --ifm-color-primary-lighter: #0c66c3;
-  --ifm-color-primary-lightest: #0c66c3;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  /* --ifm-navbar-background-color: blue; */
-  /* --ifm-footer-background-color: maroon; */
+	--ifm-color-primary: #044c8b;
+	--ifm-color-primary-dark: #0a3f7b;
+	--ifm-color-primary-darker: #06356c;
+	--ifm-color-primary-darkest: #032954;
+	--ifm-color-primary-light: #065cb2;
+	--ifm-color-primary-lighter: #0c66c3;
+	--ifm-color-primary-lightest: #0c66c3;
+	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+	--ifm-navbar-background-color: black;
+	--ifm-footer-background-color: black;
 }

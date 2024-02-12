@@ -10,34 +10,35 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Effortless Voting Journey',
-    Svg: require('@site/static/img/vs_undraw_docusaurus_mountain.svg').default,
+    title: 'User-Focused Voting with Golang',
+    Svg: require('@site/static/img/go_logo.svg').default,
     description: (
       <>
-        Seamless registration and voting experience via user-friendly webpages. 
-        Your data is securely stored, and votes are transmitted to the 
-        blockchain for a smooth, trustworthy process.
+      Utilizing Golang for Elliptic Curve Cryptography (ECC), 
+      Linkable Ring Signatures, and optimized memory usage, 
+      ensuring robust security measures without compromising performance.
       </>
     ),
   },
   {
-    title: 'User-Focused Voting Confidence',
-    Svg: require('@site/static/img/vs_undraw_docusaurus_react.svg').default,
+    title: 'Effortless Voting Journey with NextJS',
+    Svg: require('@site/static/img/nextjs_logo.svg').default,
     description: (
       <>
-        Intuitive registration leads to secure, hassle-free voting. SentinelVote 
-        ensures data security and integrity while providing an easy, transparent voting process.
+      Harnessing the power of Next.js for effortless deployment on Vercel's platform, 
+      leveraging Node.js environment, 
+      and delivering a responsive interface for an unparalleled user experience.
       </>
     ),
   },
   {
-    title: 'Simplified Voting, Secure Outcome',
-    Svg: require('@site/static/img/vs_undraw_docusaurus_tree.svg').default,
+    title: 'Secure Outcome with Fabric',
+    Svg: require('@site/static/img/hyper_ledger_fabric.svg').default,
     description: (
       <>
-        Register and vote effortlessly with SentinelVote's user-centric design. 
-        Your data's security and encrypted votes' integrity are maintained for 
-        a seamless journey onto the blockchain.
+      Leveraging Hyperledger Fabric technology to securely store and maintain the integrity of votes, 
+      ensuring tamper-proof records and 
+      providing a trusted platform for conducting elections with utmost transparency and security.
       </>
     ),
   },

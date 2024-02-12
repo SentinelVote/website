@@ -89,7 +89,6 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark', //TODO: remove later
       links: [
         {
           title: 'Links',
