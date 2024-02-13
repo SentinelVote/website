@@ -15,8 +15,11 @@
 	--ifm-color-primary-lightest: #6ec1d3;
 	--ifm-code-font-size: 95%;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-	--ifm-navbar-background-color: black;
-	--ifm-footer-background-color: black;
+	--ifm-navbar-background-color: black !important;
+	--ifm-footer-background-color: black !important;
+	.hero--primary {
+		--ifm-hero-text-color: white;
+	}
 	.footer__link-item {
 		color: white;
 	}
@@ -47,6 +50,16 @@
 	--ifm-color-primary-lighter: #0c66c3;
 	--ifm-color-primary-lightest: #0c66c3;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-	--ifm-navbar-background-color: black;
-	--ifm-footer-background-color: black;
+	/* --ifm-navbar-background-color: red !important;
+	--ifm-footer-background-color: red !important; */
+	svg {
+		filter: invert(1);
+		fill: var(--svg-color-dark);
+	}
+	.hero--primary {
+		--ifm-hero-text-color: white;
+	}
+	.toggleButton_gllP {
+		color: white;
+	}
 }
