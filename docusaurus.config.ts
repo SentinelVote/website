@@ -62,6 +62,7 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'SentinelVote', 
+      style: 'dark',
       logo: {
         alt: 'SentinelVote Logo',
         src: '/img/SentinelVote.ico',
