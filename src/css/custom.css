@@ -30,7 +30,7 @@
 		color: white;
 	}
 	.text--truncate {
-		color: black;
+		color: black !important;
 	}
 	.navbar__link {
 		color: white;
@@ -39,7 +39,7 @@
 		color: white;
 	}
 	.navbar__items .text--truncate{
-		color: white		
+		color: white !important;		
 	}
 }
 
@@ -62,6 +62,6 @@
 		filter: invert(1);
 	}
 	.text--truncate {
-		color: white;
+		color: white !important;
 	}
 }
