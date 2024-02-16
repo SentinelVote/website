@@ -14,19 +14,19 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/go_logo.svg').default,
     description: (
       <>
-      Utilizing Golang for Elliptic Curve Cryptography (ECC), 
-      Linkable Ring Signatures, and optimized memory usage, 
+      Utilizing Golang for Elliptic Curve Cryptography (ECC),
+      Linkable Ring Signatures, and optimized memory usage,
       ensuring robust security measures without compromising performance.
       </>
     ),
   },
   {
     title: 'Effortless Voting Journey with NextJS',
-    Svg: require('@site/static/img/nextjs_logo.svg').default,
+    Svg: require('@site/static/img/nextjs_wordmark.svg').default,
     description: (
       <>
-      Harnessing the power of Next.js for effortless deployment on Vercel's platform, 
-      leveraging Node.js environment, 
+      Harnessing the power of Next.js for effortless deployment on Vercel's platform,
+      leveraging Node.js environment,
       and delivering a responsive interface for an unparalleled user experience.
       </>
     ),
@@ -36,8 +36,8 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/hyper_ledger_fabric.svg').default,
     description: (
       <>
-      Leveraging Hyperledger Fabric technology to securely store and maintain the integrity of votes, 
-      ensuring tamper-proof records and 
+      Leveraging Hyperledger Fabric technology to securely store and maintain the integrity of votes,
+      ensuring tamper-proof records and
       providing a trusted platform for conducting elections with utmost transparency and security.
       </>
     ),
