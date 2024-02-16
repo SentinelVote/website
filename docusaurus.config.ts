@@ -1,12 +1,12 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const organizationName = "SentinelVote";
-const projectName = "website";    
+const projectName = "website";
 
-const config: Config = { 
-  title: 'SentinelVote', 
+const config: Config = {
+  title: 'SentinelVote',
   tagline: 'An e-voting platform on Hyperledger Fabric with Linkable Ring Signatures',
   favicon: '/img/SentinelVote.ico',
 
@@ -15,24 +15,13 @@ const config: Config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
 
-  // Set the production url of your site here
   url: `https://docs.sentinelvote.tech`,
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: `/`,
   trailingSlash: false,
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName,  // Usually your GitHub org/user name.
-  projectName,  // Usually your repo name.
-
+  organizationName,
+  projectName,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -58,10 +47,10 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/docusaurus-social-card.jpg', // TODO: Replace with project's social card
+
     navbar: {
-      title: 'SentinelVote', 
+      title: 'SentinelVote',
       style: 'dark',
       logo: {
         alt: 'SentinelVote Logo',
@@ -80,15 +69,15 @@ const config: Config = {
           sidebarId: 'meeting-minutes',
           label: 'Meeting Minutes',
         },
-        // once confirm no need blog, can remove it
-        // {to: '/blog', label: 'Blog', position: 'left'},
+        // { to: '/blog', label: 'Blog', position: 'left' }, // TODO: Remove this line if not using blog.
         {
-          href: `https://github.com/${organizationName}`, 
+          href: `https://github.com/${organizationName}`,
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
+
     footer: {
       links: [
         {
@@ -107,10 +96,12 @@ const config: Config = {
       ],
       copyright: `SentinelVote © 2024 by FYP-23-S4-10 is licensed under CC BY-NC-SA 4.0`,
     },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+
   } satisfies Preset.ThemeConfig,
 };
 
