@@ -8,17 +8,9 @@
 :root {
 	--ifm-code-font-size: 95%;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-	
 	--ifm-color-primary: #0f0c29;
 	--svg-text-color: #000000;
-	/* TODO: modify or remove colors if not necessary */
-	--ifm-color-primary-dark: #29784c;
-	--ifm-color-primary-darker: #277148;
-	--ifm-color-primary-darkest: #205d3b;
-	--ifm-color-primary-light: #33925d;
-	--ifm-color-primary-lighter: #359962;
-	--ifm-color-primary-lightest: #3cad6e;
-	
+
 	/* in case toggle button accidental invert */
 	/* .toggle_node_modules-\@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module {
 		color: white;
@@ -26,20 +18,14 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {	 
+[data-theme='dark'] {
 	--ifm-color-primary: #add3ff;
 	--svg-text-color: #ffffff;
-	/* TODO: modify or remove colors if not necessary */
-	--ifm-color-primary-dark: red;
-	--ifm-color-primary-darker: blue;
-	--ifm-color-primary-darkest: yellow;
-	--ifm-color-primary-light: green;
-	--ifm-color-primary-lighter: pink;
-	--ifm-color-primary-lightest: cyan;
 	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
 	--brand-navbar-link-color-1: #70b4ff;
 	--brand-navbar-link-color-2: #add3ff;
+
 	/* Theme frontpage svg logos */
 	.feature-item-component {
 		color: var(--svg-text-color) !important;
@@ -72,11 +58,5 @@
 	}
 	.navbar-sidebar .menu__link.menu__link--active {
 		background-color: rgb(91, 90, 90) !important;
-	}
-	
-	/* TODO: fix logos */
-	.col--4 .feature-item-component {
-		/* filter: invert(1) !important; */
-		/* fill: cyan; */
 	}
 }
