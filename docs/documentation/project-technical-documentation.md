@@ -20,8 +20,8 @@ Our proposed and deployed architecture (shown below) differs due to financial co
 
 ### Voter
 
-![Alt text](../../static/img/project-technical-documentation/Voter_Activity_Diagram.png)
+![Alt text](../../static/img/project-technical-documentation/VoterActivityDiagram.svg)
 
 ### Central Authority
 
-![Alt text](../../static/img/project-technical-documentation/Admin_Activity_Diagram.png)
+![Alt text](../../static/img/project-technical-documentation/CAActivityDiagram.svg)
