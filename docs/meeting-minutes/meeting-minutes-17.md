@@ -1,6 +1,6 @@
 ---
 sidebar_position: 17
-title: Meeting Minutes 17 - 5th January 2023
+title: Meeting Minutes 17 - 5th January 2024
 author: Baraq
 ---
 

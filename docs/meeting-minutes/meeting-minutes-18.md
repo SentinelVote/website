@@ -1,6 +1,6 @@
 ---
 sidebar_position: 18
-title: Meeting Minutes 18 - 10th January 2023
+title: Meeting Minutes 18 - 10th January 2024
 author: Hidayat
 ---
 

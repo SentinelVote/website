@@ -1,6 +1,6 @@
 ---
 sidebar_position: 19
-title: Meeting Minutes 19 - 20th January 2023
+title: Meeting Minutes 19 - 20th January 2024
 author: Benedict
 ---
 
@@ -21,6 +21,7 @@ author: Benedict
 - Muhammad Hidayat Bin Salaman
 
 **Objective:**
+
 Update on SentinelVote progress
 
 **Agenda:**

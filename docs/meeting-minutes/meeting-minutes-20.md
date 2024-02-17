@@ -1,6 +1,6 @@
 ---
 sidebar_position: 20
-title: Meeting Minutes 20 - 24th January 2023
+title: Meeting Minutes 20 - 24th January 2024
 author: Elroy
 ---
 
@@ -21,6 +21,7 @@ author: Elroy
 - Muhammad Hidayat Bin Salaman
 
 **Objective:**
+
 Update on user stories
 
 **Agenda:**
@@ -32,10 +33,10 @@ Update on user stories
 **Summary:**
 
 - User stories left to implement (in order of priority)
-- Central Authority announce voting results
-- Vote change password
-- Voter reset password
-- Central Authority send email to voter
+    - Central Authority announce voting results
+    - Vote change password
+    - Voter reset password
+    - Central Authority send email to voter
 - Group discussed possibility of dropping user story involving Central Authority sending email to voters.
 - Involves inputting credentials used to send emails into the application which may be a security concern since the repositories will be available to the public.
 - Main user story to implement for now will be to announce the voting results
@@ -49,4 +50,4 @@ Update on user stories
 
 **Notes:**
 
-- The next meeting will be on the TBC
+- The next meeting will be on the 2nd February 2024
