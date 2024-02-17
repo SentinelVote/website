@@ -21,7 +21,6 @@ author: Hidayat
 - Muhammad Hidayat Bin Salaman
 
 **Objective:**
-
 Meeting with supervisor 
 
 **Agenda:**

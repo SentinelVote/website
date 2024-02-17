@@ -21,7 +21,6 @@ author: Elroy
 - Muhammad Hidayat Bin Salaman
 
 **Objective:**
-
 Update on user stories
 
 **Agenda:**

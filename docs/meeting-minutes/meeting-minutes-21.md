@@ -21,7 +21,6 @@ author: Raizel
 - Muhammad Hidayat Bin Salaman
 
 **Objective:**
-
 Share updates of SentinelVote 
 
 **Agenda:**

@@ -21,7 +21,6 @@ author: Baraq
 - Muhammad Hidayat Bin Salaman
 
 **Objective:**
-
 Share updates of SentinelVote 
 
 **Agenda:**

@@ -21,7 +21,6 @@ author: Benedict
 - Muhammad Hidayat Bin Salaman
 
 **Objective:**
-
 Update on SentinelVote progress
 
 **Agenda:**
