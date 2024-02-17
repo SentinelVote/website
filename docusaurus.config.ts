@@ -89,7 +89,11 @@ const config: Config = {
             },
             {
               label: 'Github',
-              href: 'hhttps://github.com/SentinelVote/website',
+              href: 'https://github.com/SentinelVote/website',
+            },
+            {
+              label: 'App',
+              href: 'https://sentinelvote.tech/',
             },
           ],
         },
