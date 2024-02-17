@@ -21,7 +21,6 @@ author: Raizel
 - Muhammad Hidayat Bin Salaman
 
 **Objective:**
-
 Discussion about user stories that are created and start with creation of required diagrams and creation of the website.
 
 **Agenda:**
