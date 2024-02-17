@@ -45,7 +45,7 @@ We note the total transactions, which is now 5:
 
 **Explorer Single Transaction.**
 We open and read the newest transaction. The folded public keys (also called the linkable ring signature group) is stored in the blockchain:
-![Explorer Transactions Tx Keys](../../../static/img/user-manual/Admin/28ADMI~1.png)
+![Explorer Transactions Tx Keys](../../../static/img/user-manual/Admin/28_Admin.png)
 
 </details>
 
