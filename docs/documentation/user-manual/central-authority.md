@@ -9,76 +9,99 @@ sidebar_position: 3
 <details>
 <summary>
 
-### Registration/Setup Phase Actions
+### 1. Actions performed on the registration/setup phase.
 
 </summary>
 
-**1. Login as Admin**
+**Login.**
+Enter the admin’s credentials to login as admin:
+![Admin Login](../../../static/img/user-manual/Admin/21_Admin.png)
 
-Enter the admin’s credentials to login:
-![Admin Login](../../../static/img/user-manual/Admin/1_login.png)
-
-**2. Home Page**
-
-The home page shows the list of users and their status. On the bottom left, a purple button “Fold Keys” should be clicked once all voters have generated their public key or the cutoff time for the voters to do so has passed:
-![Home Incomplete](../../../static/img/user-manual/Admin/2_home_incomplete.png)
-
+**Home Page.**
+The home page shows the list of users and their status: On the bottom left, a purple but-ton “Fold Keys” should be clicked once all voters have generated their public key, or the cutoff time for the voters to do so has passed:
+![Home Incomplete](../../../static/img/user-manual/Admin/22_Admin.png)
 When all voters have generated their public key, the admin is ready to click “Fold Keys.” Before that, compare the number of blockchain transactions:
-![Home Complete](../../../static/img/user-manual/Admin/3_home_complete.png)
+![Home Complete](../../../static/img/user-manual/Admin/23_Admin.png)
 
-**3. Hyperledger Explorer**
-
+**Hyperledger Explorer:**
 Enter the admin’s credentials to login:
-![Fabric Login](../../../static/img/user-manual/Admin/4_fabric_login.png)
+![Explorer Login](../../../static/img/user-manual/Admin/24_Admin.png)
 
-**4. Explorer Dashboard**
-
+**Explorer Dashboard.**
 The dashboard displays information on the blockchain network:
-![Fabric Home](../../../static/img/user-manual/Admin/5_fabric_home.png)
+![Explorer Home](../../../static/img/user-manual/Admin/25_Admin.png)
 
-**5. Explorer Transactions**
+**Explorer Transactions.**
+We note the total transactions, which is originally 4:
+![Explorer Transactions](../../../static/img/user-manual/Admin/26_Admin.png)
 
-Note the total transactions, which is originally 6:
-![Fabric Transactions](../../../static/img/user-manual/Admin/6_fabric_transactions.png)
+**Home Page.**
+We click on “Fold Keys”. This process is irreversible:
+![Home Clicked Fold](../../../static/img/user-manual/Admin/23_Admin.png)
 
-**6. Home Page - Fold Keys**
+**Explorer Transactions.**
+We note the total transactions, which is now 5:
+![Explorer Transactions Keys](../../../static/img/user-manual/Admin/27_Admin.png)
 
-Click on “Fold Keys.” This process is irreversible:
-![Home Clicked Fold](../../../static/img/user-manual/Admin/8_home_clicked_fold.png)
-
-**7. Explorer Transactions - Fold Keys**
-
-Note the total transactions, which is now 7:
-![Fabric Transactions Keys](../../../static/img/user-manual/Admin/9_fabric_transactions_keys.png)
-
-**8. Explorer Single Transaction - Fold Keys**
-
-Open and read the newest transaction. The folded public keys (linkable ring signature group) are stored in the blockchain:
-![Fabric Transactions Tx Keys](../../../static/img/user-manual/Admin/10_fabric_transactions_tx_keys.png)
-Concurrently, the folded public keys are also stored in the Central Authority’s database.
+**Explorer Single Transaction.**
+We open and read the newest transaction. The folded public keys (also called the linkable ring signature group) is stored in the blockchain:
+![Explorer Transactions Tx Keys](../../../static/img/user-manual/Admin/28ADMI~1.png)
 
 </details>
 
 <details>
 <summary>
 
-### Voting Phase Actions
+### 2. Actions performed on the voting phase.
 
 </summary>
 
-**1. Explorer Single Transaction - Vote Cast**
+**Helios.**
+The Helios platform will be accessible once the voting phase has started. We note the total votes, which is originally 0:
+![Helios](../../../static/img/user-manual/Admin/29_Admin.png)
 
-A vote was cast. Open the newest transaction:
-![Fabric Transactions Vote](../../../static/img/user-manual/Admin/11_fabric_transactions_vote.png)
+**Explorer Single Transaction.**
+A vote was cast. We open the newest transaction:
+![Explorer Transactions Tx Vote](../../../static/img/user-manual/Admin/30_Admin.png)
 
-**2. Explorer Single Transaction - Vote Cast**
+**Explorer Single Transaction.**
+We see an LRS signature with a vote that was cast:
+![Explorer Transactions Tx Vote](../../../static/img/user-manual/Admin/31_Admin.png)
+![Explorer Transactions Tx Vote](../../../static/img/user-manual/Admin/32_Admin.png)
 
-See an LRS signature with the cast vote:
-![Fabric Transactions Tx Vote](../../../static/img/user-manual/Admin/12_fabric_transactions_tx_vote.png)
+**Helios.**
+Back on the Helios platform, we note the total votes, which is now 1:
+![Helios](../../../static/img/user-manual/Admin/33_Admin.png)
 
-**3. Logout**
+**Publish Results.**
+After the election is completed, click on “Publish Results” to officially end the elections, and announce the results to the public. Click “Log out” to safely log out after announc-ing the results.
+![Results](../../../static/img/user-manual/Admin/34_Admin.png)
 
-After the election is completed, click “Log out” to safely log out:
-![Logout](../../../static/img/user-manual/Admin/13_logout.png)
+</details>
+
+<details>
+<summary>
+
+### 3. Actions performed to allow public to verify elections integrity.
+
+</summary>
+
+**Hyperledger Explorer.**
+Enter the admin’s credentials to login:
+![Explorer](../../../static/img/user-manual/Admin/01_Admin.jpg)
+
+**User Management.**
+Click on the “person” icon at the top right of the blockchain explorer:
+![Explorer](../../../static/img/user-manual/Admin/02_Admin.jpg)
+Click on the “User Management” button to open user management screen:
+![Explorer](../../../static/img/user-manual/Admin/03_Admin.jpg)
+
+**Add public user account.**
+Click on “Add User” to open up form to register new user:
+![Explorer](../../../static/img/user-manual/Admin/04_Admin.jpg)
+Enter the required fields such as “User”, “Password”, “Password(confirm)”, and “Roles”:
+![Explorer](../../../static/img/user-manual/Admin/05_Admin.jpg)
+Click on the “REGISTER” button to create a public account. Upon successful comple-tion, members of the public will be able to access the blockchain explorer to view and verify the integrity of the votes:
+![Explorer](../../../static/img/user-manual/Admin/06_Admin.jpg)
 
 </details>
