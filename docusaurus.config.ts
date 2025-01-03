@@ -16,7 +16,7 @@ const config: Config = {
   themes: ['@docusaurus/theme-mermaid'],
 
   url: `https://docs.sentinelvote.tech`,
-  baseUrl: `/`,
+  baseUrl: `/website/`,
   trailingSlash: false,
   organizationName,
   projectName,
